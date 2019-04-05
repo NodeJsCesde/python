@@ -46,11 +46,12 @@
 
 # # print("curso")
 
-a = 3
-b = 4
+# condicionales 
+# a = 3
+# b = 4
 
-if a == 3 or b == 4:
-    print("es correcto")
+# if a == 3 or b == 4:
+#     print("es correcto")
 
 
 # //// while
@@ -60,3 +61,9 @@ if a == 3 or b == 4:
 #     a = int(input("ingrese el nuevo valor de a:  "))
 #     if a != 7:
 #         break
+
+
+# metodo for
+
+for i in range(0,5):
+    print(i)
