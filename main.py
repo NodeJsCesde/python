@@ -65,5 +65,21 @@
 
 # metodo for
 
-for i in range(0,5):
-    print(i)
+# for i in range(0,5):
+#     print(i)
+    
+num1 = int(input("ingrese numero Uno"))
+num2 = int(input("ingrese numero Dos"))
+
+while True:
+    option = input(" escoja la opreación S = suma / R = resta / M = multiplicar / D = division")
+    if option == 'S':
+        print(num1+num2)
+    elif option == 'R':
+        print(num1-num2)
+    elif option == 'M':
+        print(num1*num2)
+    elif option == 'D':
+        print(num1/num2)
+    else:
+        print("ingrese un dato correcto")
